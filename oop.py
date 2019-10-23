@@ -36,6 +36,14 @@ class Album_collection:
         return len(self.albums)
 
 
+
+class Playlist_collection:
+    def __init__(self):
+        self.playlists = []
+
+    def add_playlist(self, playlist):
+        self.playlists.append(playlist)
+
 name_s1 = "jojo"
 subg1 = "jo"
 song = Song(name_s1, subg1)
