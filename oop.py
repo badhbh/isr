@@ -36,13 +36,16 @@ class Album_collection:
         return len(self.albums)
 
 
-
 class Playlist_collection:
     def __init__(self):
         self.playlists = []
 
     def add_playlist(self, playlist):
         self.playlists.append(playlist)
+    
+    def get_size_of_playlist_collection(self):
+        return len(self.playlists)
+
 
 name_s1 = "jojo"
 subg1 = "jo"
