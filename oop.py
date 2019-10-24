@@ -35,6 +35,14 @@ class Album_collection:
     def size_of_album_coll(self):
         return len(self.albums)
 
+class Playlist:
+    def __init__(self, name):
+        self.playlist = []
+        self.name = name
+    
+    
+    
+
 
 class Playlist_collection:
     def __init__(self):
