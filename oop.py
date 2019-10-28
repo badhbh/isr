@@ -35,12 +35,20 @@ class Album_collection:
     def size_of_album_coll(self):
         return len(self.albums)
 
+class Genre:
+    def __init__(self, name):
+        self.collection_genres = []
+        self.name = name
+
+    def add_subgenre(self, genre):
+        self.collection_genres.append(genre)
+
 class Playlist:
     def __init__(self, name):
         self.playlist = []
         self.name = name
     
-    
+        
     
 
 
