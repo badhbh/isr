@@ -40,8 +40,20 @@ class Genre:
         self.collection_genres = []
         self.name = name
 
+
+    def add_subgenre(self, subgenre):
+        self.collection_genres.append(subgenre)
+
+class Genre_collection:
+    def __init__(self):
+        self.genre_collections = []
+
+    def add_genre(self, genre):
+        self.genre_collections.append(genre)
+
     def add_subgenre(self, genre):
         self.collection_genres.append(genre)
+
 
 class Playlist:
     def __init__(self, name):
