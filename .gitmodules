@@ -1,3 +1,6 @@
 [submodule "submodules_folder/first_sm"]
 	path = submodules_folder/first_sm
 	url = https://github.com/badhbh/isr2.git
+[submodule "submodules_folder/second_sm"]
+	path = submodules_folder/second_sm
+	url = https://github.com/badhbh/isr3.git
