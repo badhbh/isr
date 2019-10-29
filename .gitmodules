@@ -1,0 +1,3 @@
+[submodule "submodules_folder/first_sm"]
+	path = submodules_folder/first_sm
+	url = https://github.com/badhbh/isr2.git
